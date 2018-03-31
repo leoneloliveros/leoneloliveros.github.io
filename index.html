@@ -1,21 +1,161 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>Portafolio - Leonel Oliveros</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="image/png" href="Imagenes/logo1.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </head>
-  <body>
+  <body id="bk">
     <header>
-      <nav>
-        <a href="index.html">Perfil</a>
-        <a href="proyectos.html">Proyectos</a>
-        <a href="experiencia.html">Experiencia</a>
-        <a href="contacto.html">Contacto</a>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="Imagenes/nav_logo.png" width="40" height="40" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="index.html">Perfil <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="proyectos.html">Proyectos</a>
+              <a class="nav-item nav-link" href="experiencia.html">Experiencia</a>
+              <a class="nav-item nav-link" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
-    <h1>Full Stack Rails Developers</h1>
-    <h2>Leonel Oliveros</h2>
-    <footer>
+    <div class="row encabezado">
+      <div class="container d-flex align-items-center justify-content-center">
+        <div class="col-9 ">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Leonel Adrian Oliveros Muñoz</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Full Stack Rails Developer</h6>
+              <br>
+              <p class="card-text">Ingeniero electrónico, con experiencia en el área de automatización de procesos industriales, desarrollando funciones de supervisión de personal, trazabilidad de actividades de compras y almacén, diseño de planos eléctricos, mecánicos y generales, programación de PLC y supervisorios, realización de pruebas a tableros de control, verificación de equipos, contacto con clientes y proveedores, actualización de informes y presentación de informes; Con capacidad de análisis, planeación, iniciativa y orientación a los resultados. Actualmente adquiriendo conocimientos en el área de Full Stack Web developer.</p>
+
+            </div>
+          </div>
+        </div>
+        <img src="Imagenes/perfil.jpg" alt="" class="rounded-circle">
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center" style="margin-top: 50px;">
+        <h4>Formación Académica</h4>
+        <div class="col-md-10">
+          <div class="card flex-md-row mb-4 box-shadow h-md-250">
+            <div class="card-body d-flex flex-column align-items-start">
+              <strong class="d-inline-block mb-2 text-primary">Título:</strong>
+              <h3 class="mb-0">
+                <a class="text-dark" href="#">Ingeniero Electrónico</a>
+              </h3>
+              <div class="mb-1 text-muted">Ago 04 (2017)</div>
+              <p class="card-text mb-auto">Universidad Nacional Experimental Politécnica Antonio José de Sucre - Venezuela</p>
+              <p class="text-danger">En proceso de Convalidación</p>
+            </div>
+            <img class="card-img-right flex-auto d-none d-md-block"  alt="Thumbnail [200x250]" src="Imagenes/unexpo.png">
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <h4>Otros Estudios</h4>
+
+      </div>
+
+      <div class="row">
+        <div class="col-4">
+          <div class="card" id="curso1">
+            <div class="card-body">
+              <h5 class="card-title">Full Stack Web Developer</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Make It Real - 2018</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" id="curso2">
+            <div class="card-body">
+              <h5 class="card-title">Competencias transversales</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Educación Futuro - 2018</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" id="curso3">
+            <div class="card-body">
+              <h5 class="card-title">Apoyo de selección para el éxito</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Educación Futuro - 2018</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" id="curso4">
+            <div class="card-body">
+              <h5 class="card-title">HTML5 y CCS3</h5>
+              <h6 class="card-subtitle mb-2 text-muted">CADI F1, C.A. - 2017</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4" >
+          <div class="card" id="curso5">
+            <div class="card-body">
+              <h5 class="card-title">CCNA 1, 2 y 3</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Cedei - 2016</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4" >
+          <div class="card" id="curso6">
+            <div class="card-body">
+              <h5 class="card-title">Inglés Básico</h5>
+              <h6 class="card-subtitle mb-2 text-muted">FundaUC - 2015</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+
+
+    <footer class="footer fixed-bottom justify-content-center">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <a href="#"><img src="Imagenes/linkedin.png" style="width: 30px; height:30px; margin: 10px;"></a>
+          <a href="#"><img src="Imagenes/gmail.png" style="width: 30px; height:30px; margin: 10px;"></a>
+          <a href="#"><img src="Imagenes/github.png" style="width: 30px; height:30px; margin: 10px;"></a>
+          <a href="#"><img src="Imagenes/twitter.png" style="width: 30px; height:30px; margin: 10px;"></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
